@@ -1,0 +1,14 @@
+name: ZenOasisPlugin
+version: '1.0-SNAPSHOT'
+main: me.plugin.zenoasisplugin.ZenOasisPlugin
+api-version: '1.20'
+commands:
+  rules:
+    description: Shows the player the server's rules
+  town:
+    aliases: townhelp
+    description: Shows the player the help screen for the town system
+  towns:
+    description: Opens a GUI of all current towns
+  hologram:
+    description: Create holograms (OP only command)
